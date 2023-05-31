@@ -1,30 +1,63 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <Navbar />
+    <div id="app" style="height: 100%;">
+      <div id="container">
+        <router-view />
+      </div>
+    </div>
+    <Footer />
+  </div>
 </template>
 
+<script>
+import Navbar from '@/components/navbar/navbar.component.vue'
+import Footer from '@/components/footer/footer.component.vue'
+import { useHead } from '@vueuse/head'
+import {computed, reactive } from 'vue'
+import { useI18n } from 'vue-i18n'
+export default {
+  name: 'App',
+  components: {
+
+    Navbar,    
+    Footer,
+  },
+  computed: {
+
+
+  },
+ 
+  setup() {
+
+    const { t } = useI18n()
+
+    const siteData = reactive({
+      title: t('Buy and Queue for Your Favorites with NarabuQ'),
+      description: t('Discover a new way to shop with NarabuQ. Queue and purchase your favorite items from around the world with ease. Join NarabuQ and transform your shopping experience.'),
+      keywords: t('buy, queue, shop, NarabuQ')
+    })
+
+    useHead({
+      title: computed(() => siteData.title),
+      meta: [
+        {
+          name: 'description',
+          content: computed(() => siteData.description),
+        },
+        {
+          name: 'keywords',
+          content: computed(() => siteData.keywords),
+        },
+      ],
+    })
+
+  }
+  
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+ 
 </style>
+
