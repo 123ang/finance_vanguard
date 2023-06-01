@@ -1,7 +1,7 @@
 <template>
     <footer class="footer-section">
         <div class="container">
-           <div>{{ $t('Copyright') }} {{ (new Date()).getFullYear() }} @ Finance Vanguard </div>
+           <div> Finance Vanguard </div>
             <div>
                 Contact us
                 <ul>
@@ -32,41 +32,7 @@
 
 <script>
 
-export default {
-    name: 'Footer',
-    props: {},
-    components: {},
-    methods: {
-    },
-    mounted() { 
-        const linkedInTip = this.$refs.linkedInTip;
-        new bootstrap.Tooltip(linkedInTip, {
-            title: "LinkedIn",
-            placement: "top",
-        });
-
-        const igTip = this.$refs.igRef;
-        new bootstrap.Tooltip(igTip, {
-            title: "Instagram",
-            placement: "top",
-        });
-        
-        const fbTip = this.$refs.fbRef;
-        new bootstrap.Tooltip(fbTip, {
-            title: "Facebook",
-            placement: "top",
-        });
-        
-        const xhsTip = this.$refs.xhsRef;
-        new bootstrap.Tooltip(xhsTip, {
-            title: "小红书",
-            placement: "top",
-        });
-    },
-}
 </script>
 
 <style lang="scss" scoped>
-    @import '@/assets/css/main.scss';
-    @import './footer.styles.scss';
 </style>
