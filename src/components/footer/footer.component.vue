@@ -1,7 +1,7 @@
 <template>
     <footer class="footer-section">
         <div class="container">
-           <div> Finance Vanguard </div>
+            <div>{{ $t('Copyright') }} {{ (new Date()).getFullYear() }} @ {{ $t('Finance Vanguard') }}</div>
             <div>
                 Contact us
                 <ul>
