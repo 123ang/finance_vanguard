@@ -15,7 +15,7 @@
     </div>
     <div>
       <div>
-        Name: 
+        Name: Carrie Wong
       </div>
       <div>
         <ul>
