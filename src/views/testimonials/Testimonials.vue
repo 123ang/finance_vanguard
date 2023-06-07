@@ -4,16 +4,16 @@
         <p>Don't take our word for it, hear from our happy customers:</p>
         <div>
             <div>
-                <h2>John Smith</h2>
-                <p>"The team at this accounting firm helped me navigate through a difficult tax situation with ease. I'm grateful for their expertise and highly recommend their services."</p>
+                <h2>Ms. Azizah, Selangor</h2>
+                <p>"Ever since I started working with Finance Vanguard, I've seen positive changes in my business. Not only have they helped me better understand my finances, but they've also provided invaluable advice to take my business to the next level. I highly recommend Finance Vanguard to all business owners!"</p>
             </div>
             <div>
-                <h2>Jane Doe</h2>
-                <p>"I've been working with this company for years and they've always exceeded my expectations. Their attention to detail and personal touch are unmatched."</p>
+                <h2>Mr Tan</h2>
+                <p>"I want to express my gratitude to the team at Finance Vanguard for efficiently managing my business accounting. They are extremely professional, friendly, and always ready to help whenever I have any questions. I feel more confident and at ease now. Thank you, Finance Vanguard!"</p>
             </div>
             <div>
-                <h2>Joe Johnson</h2>
-                <p>"I'm glad I found this accounting firm. They've helped me save so much money on taxes and have taken so much off my plate, allowing me to focus on my business."</p>
+                <h2>Mr Samy, Kuala Lumpur:</h2>
+                <p>"Finance Vanguard has truly transformed how I view my business finances. They are dedicated, knowledgeable, and easy to work with. As a business owner, I can now focus more on growing my business while they handle all the financial matters. Thank you, Finance Vanguard!"</p>
             </div>
         </div>
     </div>
