@@ -1,0 +1,32 @@
+section{
+    position: relative;
+    background-color: $main-1;
+    *{color: #fff;}
+
+    .title-container{          
+        margin-bottom: 2rem;        
+    }
+
+    .button-container{
+        margin-top: 2rem;
+
+        a{
+            padding: 1rem 2rem;
+            border: 2px solid #fff;
+            border-radius: $radius-1;
+            transition: background-color .4s $ease-1;
+
+            &:hover{
+                background-color: #fff;
+                color: $main-1;
+            }
+        }
+    }
+
+    .blog-list{
+        .title{
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+    }
+}

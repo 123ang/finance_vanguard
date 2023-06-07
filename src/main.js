@@ -7,6 +7,7 @@ import en from './locales/en.json'
 import cn from './locales/cn.json'
 import my from './locales/my.json'
 import { createHead } from '@vueuse/head'
+import './assets/css/main.css'
 
 const messages = {
     en,

@@ -1,0 +1,54 @@
+section{
+    background-color: $main-1;
+    text-align: center;    
+    *{color: #fff;}
+
+    .container{
+        margin-top: 2rem;
+        max-width: 1280px;
+
+        .title-container{
+            max-width: 1280px;
+            margin-inline: auto;
+        }
+
+        .card-container{
+            padding: 2rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: $radius-1;      
+            background-color: #fff;
+            max-width: 500px;  
+            width: 100%;
+            margin-inline: auto;
+            *{color: $main-1;}
+    
+            .title{
+                i{
+                    margin-right: .75rem;
+                    font-size: 1.5rem;
+                }
+            }
+
+            p, .list{
+                text-align: justify;
+                padding: 1.25rem 1rem 0 1rem;
+                margin-bottom: auto;
+            }
+            .list{
+                width: 100%;
+                max-width: 250px;
+                margin-inline: auto;
+
+                @media screen and (max-width: 768px) {
+                    max-width: unset;
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    max-width: 1280px;
+    margin-top: 2rem;
+
+    .card-container{
+        padding: 2rem;
+        background-color: $main-1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: $radius-1;      
+        max-width: 500px;  
+        *{color: #fff;}
+        &:nth-child(even){
+            margin-inline: 0 auto;
+        }
+        &:nth-child(odd){
+            margin-inline: auto 0;
+        }
+        p{
+            text-align: justify;
+            padding: 1.25rem 1rem 0 1rem;
+            margin-bottom: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card-container{
+        &:nth-child(even){
+            margin-inline: auto !important;
+        }
+        &:nth-child(odd){
+            margin-inline: auto !important;
+        }
+    }
+}

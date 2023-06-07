@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main-1: #64B0BF;
+    --main-2: #9BD3DC;
+    --main-3: #B4DDE3;
+    --main-4: #C1E5EA;
+    --main-5: #CBF0F5;
+    --dark-1: #031926;
+    --grey-1: #dedede;
+    --grey-2: #3e3e3e;
+
+    --nav-height: 80px;
+    --footer-height: 75px;
+    /* --body-height: calc( 100vh - var(--footer-height)); */
+    --hero-height: calc( 100vh - var(--footer-height) - var(--nav-height));
+    
+    --bootstrap-icon: "bootstrap-icons";
+    --awesome-icon: "Font Awesome 5 Free";
+}
+
+*{
+    font-family: 'Outfit', sans-serif;
+    color: var(--main-1);
+    font-size: 1.05rem;
+    scroll-padding: var(--nav-height);
+}
+
+.font-hero{
+    font-family: 'Kanit', sans-serif;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 900;
+}
+.sub-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.body{
+    scroll-padding: var(--nav-height);
+    padding-top: calc( var(--nav-height));
+    min-height: var(--body-height);
+    /* padding-bottom: 2rem; */
+    /* background-color: lavender; */
+}
+
+a:hover{
+    color: unset;
+}
+
+.li-dot{  
+    display: flex;
+    align-items: first baseline;
+    text-align: left;
+}
+.li-dot::before {
+    content: '\f111';
+    font-family: var(--awesome-icon);
+    font-weight: 900;
+    font-size: .35rem;
+    margin-right: .5rem;
+    transform: translateY(-3px);
+}
+ol {list-style:auto;}
+ul {list-style:initial;}
+  
+
+@media screen and (max-width: 768px) {}

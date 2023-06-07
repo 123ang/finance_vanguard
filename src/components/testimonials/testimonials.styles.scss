@@ -1,0 +1,88 @@
+section{
+    background-color: $main-1;
+    text-align: center;    
+    *{color: #fff;}
+
+    .container{
+        margin-top: 2rem;
+
+        .splide__slide{
+            height: fit-content;
+            padding-inline: .5rem;
+
+            .card-container{
+                padding: 1rem 2rem;
+                background-color: #fff;
+                border-radius: $radius-1;
+                max-width: 650px;
+                width: 100%;
+                margin-inline: auto;
+                *{color: $main-1;}
+
+                .user-container{
+                    display: flex;
+                    gap: 1rem;
+                    margin-bottom: .5rem;
+
+                    .profile-picture{
+                        border-radius: 50%;
+                        width: 60px;
+                        height: 60px;
+                        background-color: $main-1;
+
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                        }
+                    }
+                    .detail-container{
+                        text-align: left;
+                        display: grid;
+                        gap: .15rem;
+
+                        .name{
+                            font-weight: bold;
+                            font-size: 1.15rem;
+                        }
+                        .rating{
+                            display: flex;
+                            gap: .25rem;
+                            *{font-size: .75rem;}
+                        }
+                        .date{
+                            font-size: .75rem;
+                        }
+                    }                    
+                }
+
+                .comment-container{
+                    position: relative;
+                    text-align: left;
+                    padding: 1.15rem 1rem 1rem 2.25rem;
+
+                    &::after{
+                        content: '\f10d';
+                        font-family: $awesome-icon;
+                        font-weight: 900;
+                        position: absolute;
+                        font-size: 3rem;
+                        left: 0;
+                        top: -1rem;
+                        color: $main-4;
+                        z-index: 0;
+                        opacity: .85;
+                    }
+
+                    p{
+                        position: relative;
+                        z-index: 1;
+                    }
+                }
+            }
+        } 
+        .splide__pagination.custom-pagination{
+            bottom: -1.5rem !important;           
+        }
+    }
+}
