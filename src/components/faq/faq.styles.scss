@@ -1,7 +1,7 @@
 section{
     position: relative;
     background-color: $main-5;
-    *{color: $main-1;}
+    *{color: $main-2;}
 
     .title-container{            
         text-align: center;
@@ -11,7 +11,7 @@ section{
 
     .card-container{
         position: relative;
-        border: 2px solid $main-1;
+        border: 2px solid $main-2;
         border-radius: $radius-1;
         padding: 2rem 2rem 2rem 2rem;
 
@@ -23,7 +23,8 @@ section{
             position: absolute;
             left: .5rem;
             top: -.25rem;
-            color: $main-3;
+            color: $main-4;
+            opacity: .5;
         }
 
         .question{

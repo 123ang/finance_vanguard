@@ -1,0 +1,57 @@
+<template>
+    <section class="section" id="pricing">
+        <div class="container title-container mt-0">
+            <div class="title bottom-deco">Meet Our Team</div>
+            <p>Introducing our talented team of experts</p>
+        </div>
+        <div class="container">
+
+            <div class="team-row row gap-y-4">
+                <div class="col-lg-4 team-col">
+                    <div class="team-image">
+                        <img src="@/assets/images/default/female.jpg" width="300" height="400" draggable=false>
+                    </div>
+                </div>
+                <div class="col-lg-8 team-col">
+                    <div class="content-container">
+                        <h4>Ong Pei Shi</h4>
+                        <div class="li-dot">Professionally qualified member of ACCA with a Bachelor of Accounting degree from USM.</div>
+                        <div class="li-dot">Diverse experience includes audit role in a Big Four Audit Firm, position as a Senior Financial Analyst in a Multinational Corporation, and a team lead role in a local company managing full set accounts for both local and foreign companies.</div>
+                        <div class="li-dot">Proficient in various accounting software such as AutoCount, SAP, Xero, and Thaitax.</div>
+                        <div class="li-dot">Awarded the MIA Best Accounting Student Award.</div>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="team-row row gap-y-4">
+                <div class="col-lg-4 team-col">
+                    <div class="team-image">
+                        <img src="@/assets/images/default/female.jpg" width="300" height="400" draggable=false>
+                    </div>
+                </div>
+                <div class="col-lg-8 team-col">
+                    <div class="content-container">
+                        <h4>Carrie Wong</h4>
+                        <div class="li-dot">Professional member of ACCA, MIA & CTIM (Chartered Tax Institute of Malaysia).</div>
+                        <div class="li-dot">Accounting professional with a wealth of 15 years of experience leading comprehensive accounting operations, including the preparation of corporate financial statements, submission of corporate, personal tax and Limited Liabilities Partnerships, withholding tax, payroll, and more.</div>
+                        <div class="li-dot">Expertise in preparing tax returns and calculating tax payments to ensure client compliance with tax requirements imposed by the Inland Revenue Board.</div>
+                        <div class="li-dot">Ensures compliance with PCB, EPF, and SOCSO legislation regarding salaries and benefits paid to employees.</div>
+                        <div class="li-dot">Dedicated mentor guiding junior team members in their personal and professional competencies and sharing industry best practices.</div>
+                    </div>
+                </div>               
+            </div>
+
+        </div>
+    </section>
+</template>
+  
+<script>
+export default {
+    name: 'Team',
+}
+</script>
+  
+<style lang="scss" scoped>
+    @import '@/assets/css/main.scss';
+    @import './team.styles.scss';
+</style>

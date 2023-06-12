@@ -2,7 +2,8 @@
     <div class="navbar-container ">
       <div class="container">
         <a href="#" class="logo">
-          finance <br> vanguard
+          <img src="@/assets/images/logo/image.png" class="image" width="50" height="52">
+          <img src="@/assets/images/logo/text.png" class="text" >
         </a>
         <div class="nav-link-container " ref="navRef">
           <div class="link close-button"><i class="fas fa-times"></i></div>

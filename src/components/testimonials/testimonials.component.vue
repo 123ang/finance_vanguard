@@ -1,7 +1,7 @@
 <template>
     <section class="section" id="testimonials">
         <div class="container title-container my-0">
-            <div class="title bottom-deco white">Client Testimonials</div>
+            <div class="title bottom-deco white">Testimonials from Clients</div>
             <p>Don't take our word for it, hear from our happy customers:</p>
         </div>
         <div class="container">

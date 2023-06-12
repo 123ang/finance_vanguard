@@ -13,13 +13,18 @@
         min-height: $nav-height;
 
         .logo{
-            font-family: 'Kanit', sans-serif;
-            font-weight: 700;
-            color: $main-1;
-            font-size: 1.5rem;
-            letter-spacing: .2rem;
-            user-select: none;
-            line-height: 1.5rem;
+            display: flex;
+            align-items: baseline;
+            gap: .5rem;
+
+            .image{
+                width: 50px;
+                height: auto;
+            }
+            .text{
+                height: 40px;
+                width: auto;
+            }
         }
     
         .nav-link-container{

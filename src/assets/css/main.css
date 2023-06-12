@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 :root{
-    --main-1: #64B0BF;
-    --main-2: #9BD3DC;
-    --main-3: #B4DDE3;
-    --main-4: #C1E5EA;
-    --main-5: #CBF0F5;
+    /* --main-1: #64B0BF; */
+    --main-1: #0091E9;
+    /* --main-2: #9BD3DC; */
+    --main-2: #0b3b9d;
+    /* --main-3: #B4DDE3; */
+    --main-3: #13006A;
+    /* --main-4: #C1E5EA; */
+    --main-4: #46a2f1;
+    /* --main-5: #CBF0F5; */
+    --main-5: #93bee3;
     --dark-1: #031926;
     --grey-1: #dedede;
     --grey-2: #3e3e3e;
