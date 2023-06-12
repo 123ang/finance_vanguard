@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-8 team-col">
                     <div class="content-container">
-                        <h4>Ong Pei Shi</h4>
+                        <h4>PS Ong </h4>
                         <div class="li-dot">Professionally qualified member of ACCA with a Bachelor of Accounting degree from USM.</div>
                         <div class="li-dot">Diverse experience includes audit role in a Big Four Audit Firm, position as a Senior Financial Analyst in a Multinational Corporation, and a team lead role in a local company managing full set accounts for both local and foreign companies.</div>
                         <div class="li-dot">Proficient in various accounting software such as AutoCount, SAP, Xero, and Thaitax.</div>
