@@ -1,5 +1,5 @@
 <template>
-    <section class="section" id="blog">        
+    <section class="section" id="blog" hidden>        
         <div class="container">
             <div class="title-container text-center mt-0">
                 <div class="title bottom-deco white">Blog</div>

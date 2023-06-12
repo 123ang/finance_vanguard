@@ -17,19 +17,19 @@
                                         <img src="@/assets/images/default/user.png" alt="user" loading="lazy" width="60px" height="60">
                                     </div>
                                     <div class="detail-container">
-                                        <div class="name">John Smith</div>
+                                        <div class="name">Ms. Azizah, Selangor</div>
                                         <div class="rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
-                                            <i class="far fa-star"></i>
+                                            <i class="fas fa-star"></i>
                                         </div>
                                         <div class="date">01 Jan 2023</div>
                                     </div>
                                 </div>
                                 <div class="comment-container">
-                                    <p>The team at this accounting firm helped me navigate through a difficult tax situation with ease. I'm grateful for their expertise and highly recommend their services</p>
+                                    <p>Ever since I started working with Finance Vanguard, I've seen positive changes in my business. Not only have they helped me better understand my finances, but they've also provided invaluable advice to take my business to the next level. I highly recommend Finance Vanguard to all business owners!</p>
                                 </div>
                             </div>
                             <!-- User 2 -->
@@ -39,7 +39,7 @@
                                         <img src="@/assets/images/default/user.png" alt="user" loading="lazy" width="60px" height="60">
                                     </div>
                                     <div class="detail-container">
-                                        <div class="name">Jane Doe</div>
+                                        <div class="name">Mr Tan</div>
                                         <div class="rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -47,11 +47,11 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                         </div>
-                                        <div class="date">01 Jan 2023</div>
+                                        <div class="date">03 Feb 2023</div>
                                     </div>
                                 </div>
                                 <div class="comment-container">
-                                    <p>I've been working with this company for years and they've always exceeded my expectations. Their attention to detail and personal touch are unmatched.</p>
+                                    <p>I want to express my gratitude to the team at Finance Vanguard for efficiently managing my business accounting. They are extremely professional, friendly, and always ready to help whenever I have any questions. I feel more confident and at ease now. Thank you, Finance Vanguard!</p>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                         <img src="@/assets/images/default/user.png" alt="user" loading="lazy" width="60px" height="60">
                                     </div>
                                     <div class="detail-container">
-                                        <div class="name">John Smith</div>
+                                        <div class="name">Mr Samy, Kuala Lumpur</div>
                                         <div class="rating">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -74,35 +74,14 @@
                                             <i class="fas fa-star"></i>
                                             <i class="far fa-star"></i>
                                         </div>
-                                        <div class="date">01 Jan 2023</div>
+                                        <div class="date">14 Feb 2023</div>
                                     </div>
                                 </div>
                                 <div class="comment-container">
-                                    <p>The team at this accounting firm helped me navigate through a difficult tax situation with ease. I'm grateful for their expertise and highly recommend their services</p>
+                                    <p>Finance Vanguard has truly transformed how I view my business finances. They are dedicated, knowledgeable, and easy to work with. As a business owner, I can now focus more on growing my business while they handle all the financial matters. Thank you, Finance Vanguard!</p>
                                 </div>
                             </div>
-                            <!-- User 2 -->
-                            <div class="card-container">
-                                <div class="user-container">
-                                    <div class="profile-picture">
-                                        <img src="@/assets/images/default/user.png" alt="user" loading="lazy" width="60px" height="60">
-                                    </div>
-                                    <div class="detail-container">
-                                        <div class="name">Jane Doe</div>
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <div class="date">01 Jan 2023</div>
-                                    </div>
-                                </div>
-                                <div class="comment-container">
-                                    <p>I've been working with this company for years and they've always exceeded my expectations. Their attention to detail and personal touch are unmatched.</p>
-                                </div>
-                            </div>
+                          
                         </div>
                     </SplideSlide>
 

@@ -9,19 +9,48 @@
             <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
                 <div class="card-container">
                     <h4 class="title">Bookkeeping</h4>
-                    <p>We can handle all your bookkeeping needs, leaving you free to focus on growing your business.</p>
+                    <p>
+                        <ul>
+                            <li>Preparation of full set accounts</li>
+                            <li>Maintenance of proper accounting documentation</li>
+                        </ul>
+                    </p>
                 </div>
                 <div class="card-container">
-                    <h4 class="title">Tax Preparation</h4>
-                    <p>We can take care of all your tax preparation needs, ensuring your filings are accurate and timely.</p>
+                    <h4 class="title">Financial Reporting</h4>
+                    <p>
+                        <ul>
+                            <li>Preparation of Audited Financial Statement </li>
+                            <li>Preparation of financial statements in XBRL (for Singapore entities)</li>
+                            <li>Analytical review of financial statement</li>
+                            <li>Handle auditor's queries </li>
+                        </ul>
+                    </p>
                 </div>
                 <div class="card-container">
-                    <h4 class="title">Payroll Management</h4>
-                    <p>We offer payroll management services, freeing up your time to focus on what you do best.</p>                    
+                    <h4 class="title">Taxation</h4>
+                    <p>
+                        <ul>
+                            <li>Calculation and submission of taxation for:
+                                <ul>
+                                <li>Individual</li>
+                                <li>Company</li>
+                                <li>Limited liability partnerships </li>
+                                <li>Withholding tax </li>
+                                </ul>
+                            </li>
+                        
+                        </ul>
+                    </p>                    
                 </div>
                 <div class="card-container">
-                    <h4 class="title">Financial Statements</h4>
-                    <p>We can help you create financial statements that give you a clear picture of your company's financial health.</p>
+                    <h4 class="title">Payroll</h4>
+                    <p>
+                        <ul>
+                            <li>Calculation of monthly payroll </li>
+                            <li>Submission of PCB, EPF and SOCSO for employee </li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>

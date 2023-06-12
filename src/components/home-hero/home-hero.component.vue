@@ -3,12 +3,12 @@
     <div class="hero-container">
         <div class="text-container">
             <div class="title-container">
-                <div class="title">Expert Accounting Services <br> You Can Trust</div>
+                <div class="title">Finance Vanguard</div>
                 <div class="text">
-                    Welcome to our company website! We know accounting is not everyone's favorite subject and we're here to make it easier for you. Our services range from bookkeeping to tax preparation, all tailored to meet your specific needs.
+                    Your future is our priority.
                 </div>
                 <div class="price-button">
-                    <a href="#contact">Subscribe Now!</a>
+                    <a href="#contact">Contact Us Now!</a>
                 </div>
             </div>            
         </div>
