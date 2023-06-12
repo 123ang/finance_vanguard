@@ -10,16 +10,16 @@
                     <div class="contact-detail">
                         <div class="info-container">
                             <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-                            <div class="info">555-555-1234</div>
+                            <div class="info">+6011 1331 4692</div>
                         </div>
                         <div class="info-container">
                             <div class="icon"><i class="fas fa-envelope"></i></div>
-                            <div class="info">info@accountingservices.com</div>
+                            <div class="info">financevanguard1111@gmail.com</div>
                         </div>
-                        <div class="info-container">
+                        <!-- <div class="info-container">
                             <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                             <div class="info">123 Main StreetAnytown, USA 99999</div>
-                        </div>
+                        </div> -->
                     </div>                    
                 </div>
                 <div class="image-container">
