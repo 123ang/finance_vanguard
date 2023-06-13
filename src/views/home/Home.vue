@@ -5,10 +5,10 @@
     <Team />
     <Services />
     <Testimonials />
-    <Pricing />
+
     <Contact />
     <Faq />
-    <Blog />
+
 </template>
   
 <script>
@@ -17,10 +17,10 @@
     import Team from '@/components/team/team.component.vue'
     import Services from '@/components/services/services.component.vue'
     import Testimonials from '@/components/testimonials/testimonials.component.vue'
-    import Pricing from '@/components/pricing/pricing.component.vue'
+
     import Contact from '@/components/contact/contact.component.vue'
     import Faq from '@/components/faq/faq.component.vue'
-    import Blog from '@/components/blog/blog.component.vue'
+
 
     export default {
         name: 'Home',
@@ -30,10 +30,10 @@
             Team,    
             Services,    
             Testimonials,    
-            Pricing,    
+ 
             Contact,    
             Faq,    
-            Blog,    
+          
         },
     }
 </script>
