@@ -55,7 +55,6 @@
                         <div class="li-dot">Proficient in submitting quarterly GST, yearly corporate tax, and annual returns with XBRL filings.</div>
                         <div class="li-dot">Skilled in managing Payroll duties with precision.</div>
                         <div class="li-dot">Technically proficient, with expertise in various accounting software such as Xero, Quickbook, UBS, Million, Sage 300, ERP Oracle, and Accpac.</div>
-                        <div class="li-dot">Academic excellence marked by receiving the Dean's List Award during the degree program at Universiti Utara Malaysia (UUM).</div>
                     </div>
                 </div>               
             </div>
