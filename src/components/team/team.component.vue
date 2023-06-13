@@ -31,12 +31,11 @@
                 </div>
                 <div class="col-lg-8 team-col">
                     <div class="content-container">
-                        <h4>Carrie Wong</h4>
-                        <div class="li-dot">Professional member of ACCA, MIA & CTIM (Chartered Tax Institute of Malaysia).</div>
-                        <div class="li-dot">Accounting professional with a wealth of 15 years of experience leading comprehensive accounting operations, including the preparation of corporate financial statements, submission of corporate, personal tax and Limited Liabilities Partnerships, withholding tax, payroll, and more.</div>
-                        <div class="li-dot">Expertise in preparing tax returns and calculating tax payments to ensure client compliance with tax requirements imposed by the Inland Revenue Board.</div>
-                        <div class="li-dot">Ensures compliance with PCB, EPF, and SOCSO legislation regarding salaries and benefits paid to employees.</div>
-                        <div class="li-dot">Dedicated mentor guiding junior team members in their personal and professional competencies and sharing industry best practices.</div>
+                        <h4>YL Wong</h4>
+                        <div class="li-dot">Professionally qualified Chartered Accountant (CA) with member of MIA, ACCA & CTIM (Chartered Tax Institute of Malaysia).</div>
+                        <div class="li-dot">Extensive experience in the accounting, audit & tax profession with clients in a range of industries </div>
+                        <div class="li-dot">Proficient in Financial Reporting & Analysis, Budgeting & Financial Forecasting, Regulatory Compliance, Payroll & Tax Advisory.</div>
+                        <div class="li-dot">Expertise in preparation full set of account including financial statements, tax submission, GST/SST, withholding tax, payroll, and etc.</div>
                     </div>
                 </div>               
             </div>
