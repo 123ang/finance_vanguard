@@ -41,6 +41,25 @@
                 </div>               
             </div>
 
+            <div class="team-row row gap-y-4">
+                <div class="col-lg-4 team-col">
+                    <div class="team-image">
+                        <img src="@/assets/images/default/female.jpg" width="300" height="400" draggable=false>
+                    </div>
+                </div>
+                <div class="col-lg-8 team-col">
+                    <div class="content-container">
+                        <h4>PE Wong</h4>
+                        <div class="li-dot">Possesses a rich blend of experience, having served in both commercial settings and accounting firms.</div>
+                        <div class="li-dot">Expertise in managing a full set of accounts, which includes tasks like incorporation of the company, bookkeeping (both local and foreign currency), preparing management reports, and filing financial statements.</div>
+                        <div class="li-dot">Proficient in submitting quarterly GST, yearly corporate tax, and annual returns with XBRL filings.</div>
+                        <div class="li-dot">Skilled in managing Payroll duties with precision.</div>
+                        <div class="li-dot">Technically proficient, with expertise in various accounting software such as Xero, Quickbook, UBS, Million, Sage 300, ERP Oracle, and Accpac.</div>
+                        <div class="li-dot">Academic excellence marked by receiving the Dean's List Award during the degree program at Universiti Utara Malaysia (UUM).</div>
+                    </div>
+                </div>               
+            </div>
+
         </div>
     </section>
 </template>
