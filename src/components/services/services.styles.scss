@@ -8,11 +8,12 @@
         background-color: $main-1;
         height: 100%;
         display: flex;
-        align-items: center;
+        // align-items: center;
         justify-content: center;
         flex-direction: column;
         border-radius: $radius-1;      
         max-width: 500px;  
+        width: 100%;
         *{color: #fff;}
         &:nth-child(even){
             margin-inline: 0 auto;
@@ -24,6 +25,13 @@
             text-align: justify;
             padding: 1.25rem 1rem 0 1rem;
             margin-bottom: auto;
+        }
+        .title{
+            padding-bottom: 1rem;
+        }
+        .content-container{
+            margin-bottom: auto;
+            text-align: left;
         }
     }
 }

@@ -17,13 +17,24 @@
             align-items: baseline;
             gap: .5rem;
 
+            @media screen and (max-width: 768px) {
+                max-width: 50%;
+            }
+
             .image{
                 width: 50px;
                 height: auto;
+                @media screen and (max-width: 768px) {
+                    max-width: 40px;
+                }
             }
             .text{
                 height: 40px;
                 width: auto;
+                flex: 1;
+                @media screen and (max-width: 768px) {
+                    height: 30px;
+                }
             }
         }
     
@@ -44,6 +55,11 @@
                 user-select: none;
                 cursor: pointer;
                 
+                &:hover, &:hover *{
+                    color: #fff;
+                    fill: #fff;
+                }
+
                 &.close-button{
                     display: none;
                     font-size: 1.5rem;
@@ -71,7 +87,7 @@
                 }
             }
         }
-        @media screen and (max-width: 768px) {
+        // @media screen and (max-width: 768px) {
             .nav-link-container{
                 position: fixed;
                 right: 0;
@@ -121,6 +137,60 @@
                     }
                 }
             }
+        // }
+
+        .language{
+            margin-left: auto;
+            user-select: none;
+            padding: 15px;
+            border-radius: $radius-1;
+            cursor: pointer;
+    
+            i{
+                font-size: 1.25rem;
+                color: $main-1;
+            }
+
+            &.active + .language-box{
+                display: flex;           
+            }
+        }
+    
+        .langauge-container{
+            margin-left: auto;
+            position: relative;
+        }
+        .language-box{
+            position: absolute;
+            display: none;       
+            padding: .5rem;
+            right: 0;
+            top: calc( 100% + .25rem);
+            background-color: #fff;
+            border-radius: $radius-1;
+            // border: 1px solid $grey-1;
+            box-shadow: $shadow-1;
+            flex-direction: column;
+            z-index: 100;
+
+            .selection{
+                padding: .75rem 1.5rem;
+                border-radius: $radius-1;
+                font-weight: 600;
+                margin-block: .15rem;
+                user-select: none;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: $main-1 !important;
+                    color: #fff;
+                } 
+                
+                &.active{
+                    background-color: $main-2;
+                    color: #fff;
+                }
+            }
         }
 
         .mobile-menu{
@@ -130,12 +200,12 @@
             padding: 1rem;
             height: $nav-height;
             user-select: none;
-            margin-left: auto;
+            // margin-left: auto;
             cursor: pointer;
 
-            @media screen and (max-width: 768px) {
+            // @media screen and (max-width: 768px) {
                 display: flex;
-            }
+            // }
         }
     }
 

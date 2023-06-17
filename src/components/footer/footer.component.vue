@@ -11,61 +11,24 @@
           <a href="#" target=”_blank” ref="fbRef"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="#" ref="xhsRef"><img src="@/assets/images/icons/xhs-main.png" alt="xhs" width="18" height="18"></a>
           <a href="#" target=”_blank” ref="tiktokRef"><i class="fab fa-tiktok"></i></a>
-        </div>
-        <div class="language language-button footer-order" ref="buttonRef" @click="toggleLanguage" :class="{active: isActive}"><i class="bi bi-translate"></i></div>
-        <div class="language-box" ref="boxRef">
-          <div class="selection " :class="{ active: activeLanguage === 1 }" @click="setLanguage(1)">ENGLISH</div>
-          <div class="selection " :class="{ active: activeLanguage === 2 }" @click="setLanguage(2)">MALAY</div>
-        </div>
+        </div>        
       </div>
     </div>
   </footer>
 </template>
   
 <script>
-import { ref } from 'vue';
-
 export default {
   name: 'App',
   data() {
     return{
-      isActive: false,
-      activeLanguage: 1,
     }
   },
   setup() {
     // setup code goes here    
   },
   methods:{
-    toggleLanguage() {
-      this.isActive = !this.isActive;
-    },
-    closeLanguage() {
-      this.isActive = false;
-    },
-    setLanguage(num) {
-      this.activeLanguage = num;
-      this.isActive = false;
-    },
-    setupLanguage(){
-      const closeBox = (e) => {
-        // setup function
-        if(this.$refs.buttonRef.contains(e.target)||this.$refs.boxRef.contains(e.target)){
-          return;
-        } else {
-          removeEventListener('click', closeBox);
-          this.$refs.buttonRef.classList.remove('active');
-          this.isActive = false;
-        }
-      }
-
-      // main function
-      if (this.isActive) {
-        addEventListener('click', closeBox)
-      } else {
-        removeEventListener('click', closeBox);
-      }
-    }    
+    
   },
   mounted(){
     const igTip = this.$refs.igRef;
@@ -109,10 +72,7 @@ export default {
         title: "TikTok",
         placement: "top",
     });
-  },
-  updated(){
-    this.setupLanguage()
-  }
+  },  
 }
 </script>
 
