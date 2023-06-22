@@ -7,19 +7,18 @@
         </a>
         <div class="nav-link-container " ref="navRef">
           <div class="link close-button"><i class="fas fa-times"></i></div>
-          <a href="#about-us" class="link">about us</a>             
-          <a href="#services" class="link">services</a>             
-          <a href="#testimonials" class="link">testimonials</a>             
-          <a href="#pricing" class="link">pricing</a>             
-          <a href="#contact" class="link">contact</a>             
-          <a href="#faq" class="link">FAQ</a>             
-          <a href="#blog" class="link">blog</a>             
+          <a href="#about-us" class="link">{{$t('about_us')}}</a>
+          <a href="#services" class="link">{{$t('services')}}</a>
+          <a href="#testimonials" class="link">{{$t('testimonials')}}</a>
+          <a href="#contact" class="link">{{$t('contact_us')}}</a>
+          <a href="#faq" class="link">{{$t('faq')}}</a>                     
         </div>
         <div class="langauge-container">
           <div class="language language-button footer-order" ref="buttonRef" @click="toggleLanguage" :class="{active: isActive}"><i class="bi bi-translate"></i></div>
           <div class="language-box" ref="boxRef">
             <div class="selection " :class="{ active: activeLanguage === 1 }" @click="setLanguage(1)">ENGLISH</div>
             <div class="selection " :class="{ active: activeLanguage === 2 }" @click="setLanguage(2)">MALAY</div>
+            <div class="selection " :class="{ active: activeLanguage === 3 }" @click="setLanguage(3)">中文</div>
           </div>
         </div>
         <div class="mobile-menu" ref="menuRef"><i class="fas fa-bars"></i></div>
@@ -92,6 +91,13 @@
       setLanguage(num) {
         this.activeLanguage = num;
         this.isActive = false;
+        if(num === 1) {
+          this.$i18n.locale = 'en';
+        } else if(num === 2) {
+          this.$i18n.locale = 'my';
+        } else if(num === 3) {
+          this.$i18n.locale = 'cn';
+        }
       },
       setupLanguage(){
         const closeBox = (e) => {
