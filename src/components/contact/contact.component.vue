@@ -4,8 +4,8 @@
             <div class="grid gap-4 md:grid-cols-2">
                 <div class="content-container">
                     <div class="title-container mt-0">
-                        <div class="title bottom-deco left">Contact Us</div>
-                        <p>Ready to take your financial success to the next level? Get in touch with us today to schedule a consultation.</p>
+                        <div class="title bottom-deco left">{{$t('contact_us')}}</div>
+                        <p>{{$t('Ready to take your financial success to the next level? Get in touch with us today to schedule a consultation.')}}</p>
                     </div>
                     <div class="contact-detail">
                         <div class="info-container">

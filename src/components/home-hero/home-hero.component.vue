@@ -3,15 +3,15 @@
     <div class="hero-container">
         <div class="text-container">
             <div class="title-container">
-                <div class="title">Finance Vanguard</div>
+                <div class="title">{{$t('Finance Vanguard')}}</div>
                 <div class="text">
-                    <p>Your future is our priority.</p>
+                    <p>{{$t('Your future is our priority.')}}</p>
                     <br>
-                    <p>Understanding Your Business, Understanding Your Language: Our accountants at Finance Vanguard are not only experts in finance but also proficient in various languages, including Hokkien, Cantonese, and Teochew dialects. We believe in a personalized approach to service, which begins with clear communication.</p>
+                    <p>{{$t('Understanding Your Business, Understanding Your Language: Our accountants at Finance Vanguard are not only experts in finance but also proficient in various languages, including Hokkien, Cantonese, and Teochew dialects. We believe in a personalized approach to service, which begins with clear communication.')}}</p>
                     <br>
                 </div>
                 <div class="price-button">
-                    <a href="#contact">Contact Us Now!</a>
+                    <a href="#contact">{{$t('Contact Us Now!')}}</a>
                 </div>
             </div>            
         </div>

@@ -1,8 +1,8 @@
 <template>
     <section class="section" id="testimonials">
         <div class="container title-container my-0">
-            <div class="title bottom-deco white">Testimonials from Clients</div>
-            <p>Don't take our word for it, hear from our happy customers:</p>
+            <div class="title bottom-deco white">{{$t('Testimonials from Clients')}}</div>
+            <p>{{$t("Don't take our word for it, hear from our happy customers:")}}</p>
         </div>
         <div class="container">
             <Splide :has-track="false" :options="splideOption">
@@ -10,7 +10,7 @@
 
                     <SplideSlide>
                         <div class="grid gap-4 md:grid-cols-2">
-                            <!-- User 1 -->
+
                             <div class="card-container">
                                 <div class="user-container">
                                     <div class="profile-picture">
@@ -29,10 +29,9 @@
                                     </div>
                                 </div>
                                 <div class="comment-container">
-                                    <p>Ever since I started working with Finance Vanguard, I've seen positive changes in my business. Not only have they helped me better understand my finances, but they've also provided invaluable advice to take my business to the next level. I highly recommend Finance Vanguard to all business owners!</p>
+                                    <p>{{$t("Ever since I started working with Finance Vanguard, I've seen positive changes in my business. Not only have they helped me better understand my finances, but they've also provided invaluable advice to take my business to the next level. I highly recommend Finance Vanguard to all business owners!")}}</p>
                                 </div>
                             </div>
-                            <!-- User 2 -->
                             <div class="card-container">
                                 <div class="user-container">
                                     <div class="profile-picture">
@@ -51,7 +50,7 @@
                                     </div>
                                 </div>
                                 <div class="comment-container">
-                                    <p>I want to express my gratitude to the team at Finance Vanguard for efficiently managing my business accounting. They are extremely professional, friendly, and always ready to help whenever I have any questions. I feel more confident and at ease now. Thank you, Finance Vanguard!</p>
+                                    <p>{{$t("I want to express my gratitude to the team at Finance Vanguard for efficiently managing my business accounting. They are extremely professional, friendly, and always ready to help whenever I have any questions. I feel more confident and at ease now. Thank you, Finance Vanguard!")}}</p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +58,6 @@
 
                     <SplideSlide>
                         <div class="grid gap-4 md:grid-cols-2">
-                            <!-- User 1 -->
                             <div class="card-container">
                                 <div class="user-container">
                                     <div class="profile-picture">
@@ -78,7 +76,7 @@
                                     </div>
                                 </div>
                                 <div class="comment-container">
-                                    <p>Finance Vanguard has truly transformed how I view my business finances. They are dedicated, knowledgeable, and easy to work with. As a business owner, I can now focus more on growing my business while they handle all the financial matters. Thank you, Finance Vanguard!</p>
+                                    <p>{{$t("Finance Vanguard has truly transformed how I view my business finances. They are dedicated, knowledgeable, and easy to work with. As a business owner, I can now focus more on growing my business while they handle all the financial matters. Thank you, Finance Vanguard!")}}</p>
                                 </div>
                             </div>
                           
