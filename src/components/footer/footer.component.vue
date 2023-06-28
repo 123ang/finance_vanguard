@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="grid md:grid-cols-3 grid-cols-2">
-        <div class="flex items-center">copyright</div>
+        <div class="flex items-center">{{ $t('Copyright') }} {{ (new Date()).getFullYear() }} @ {{ $t('Finance Vanguard') }} </div>
         <div class="social-media-container footer-order col-span-2 md:col-span-1">          
           <a href="#" target=”_blank” ref="igRef"><i class="fa-brands fa-instagram"></i></a>
           <a href="#" target=”_blank” ref="mailRef"><i class="fas fa-envelope"></i></a>
