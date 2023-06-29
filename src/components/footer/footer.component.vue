@@ -9,7 +9,7 @@
           <a href="https://www.linkedin.com/in/finance-vanguard-66b23b279/" target=”_blank” ref="inRef"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://www.youtube.com/channel/UCqpKprl2mo4etmOc5sVecfA" target=”_blank” ref="ytRef"><i class="fab fa-youtube"></i></a>
           <a href="https://www.facebook.com/profile.php?id=100092988292443" target=”_blank” ref="fbRef"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" ref="xhsRef"><img src="@/assets/images/icons/xhs-main.png" alt="xhs" width="18" height="18" hidden></a>
+          <a href="https://www.tiktok.com/@financevanguard1111" ref="xhsRef"><img src="@/assets/images/icons/xhs-main.png" alt="xhs" width="18" height="18"></a>
           <a href="#" target=”_blank” ref="tiktokRef"><i class="fab fa-tiktok" hidden></i></a>
         </div>        
       </div>
