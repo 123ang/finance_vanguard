@@ -23,26 +23,26 @@
                         <div class="form-container">
                             <form method="POST" action="https://formsubmit.co/financevanguard1111@gmail.com">
                                 <div class="form-group">
-                                    <label for="name">Name</label>
+                                    <label for="name">{{$t('Name')}}</label>
                                     <input type="text" id="name" name="name" required />
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email</label>
+                                    <label for="email">{{$t('Email')}}</label>
                                     <input type="email" id="email" name="email" required />
                                 </div>
                                 <div class="form-group">
-                                    <label for="contactNumber">Contact Number</label>
+                                    <label for="contactNumber">{{$t('Contact Number')}}</label>
                                     <input type="tel" id="contactNumber" name="contactNumber" required />
                                 </div>
                                 <div class="form-group">
-                                    <label for="message">Message</label>
+                                    <label for="message">{{$t('Message')}}</label>
                                     <div>
                                         <textarea id="message" name="message" rows="3" required></textarea>
                                     </div>
                                 </div>
                                 <!-- This input field is needed for formsubmit.co to work. -->
                                 <input type="hidden" name="_next" value="https://financevanguard.net/" />
-                                <button type="submit">Send</button>
+                                <button type="submit">{{$t('Send')}}</button>
                             </form>
                         </div>
                     </div>                    
