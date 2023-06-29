@@ -4,13 +4,13 @@
       <div class="grid md:grid-cols-3 grid-cols-2">
         <div class="flex items-center">{{ $t('Copyright') }} {{ (new Date()).getFullYear() }} @ {{ $t('Finance Vanguard') }} </div>
         <div class="social-media-container footer-order col-span-2 md:col-span-1">          
-          <a href="#" target=”_blank” ref="igRef"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#" target=”_blank” ref="mailRef"><i class="fas fa-envelope"></i></a>
-          <a href="#" target=”_blank” ref="inRef"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" target=”_blank” ref="ytRef"><i class="fab fa-youtube"></i></a>
-          <a href="#" target=”_blank” ref="fbRef"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" ref="xhsRef"><img src="@/assets/images/icons/xhs-main.png" alt="xhs" width="18" height="18"></a>
-          <a href="#" target=”_blank” ref="tiktokRef"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.instagram.com/financevanguard/" target=”_blank” ref="igRef"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:financevanguard1111@gmail.com" target=”_blank” ref="mailRef"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/finance-vanguard-66b23b279/" target=”_blank” ref="inRef"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/channel/UCqpKprl2mo4etmOc5sVecfA" target=”_blank” ref="ytRef"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100092988292443" target=”_blank” ref="fbRef"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" ref="xhsRef"><img src="@/assets/images/icons/xhs-main.png" alt="xhs" width="18" height="18" hidden></a>
+          <a href="#" target=”_blank” ref="tiktokRef"><i class="fab fa-tiktok" hidden></i></a>
         </div>        
       </div>
     </div>
