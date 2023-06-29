@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="contactNumber">{{$t('Contact Number')}}</label>
-                                    <input type="tel" id="contactNumber" name="contactNumber" required />
+                                    <input type="text" id="contactNumber" name="contact number" required />
                                 </div>
                                 <div class="form-group">
                                     <label for="message">{{$t('Message')}}</label>
