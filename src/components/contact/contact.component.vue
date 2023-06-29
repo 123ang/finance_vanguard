@@ -21,7 +21,7 @@
                             <div class="info">123 Main StreetAnytown, USA 99999</div>
                         </div> -->
                         <div class="form-container">
-                            <form method="POST" action="https://formsubmit.co/financevanguard1111@gmail.com">
+                            <form method="POST" action="https://formsubmit.co/59b4fe2166a4301f962e2f011e4c17f1">
                                 <div class="form-group">
                                     <label for="name">{{$t('Name')}}</label>
                                     <input type="text" id="name" name="name" required />
