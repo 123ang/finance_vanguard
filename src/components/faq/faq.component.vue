@@ -19,8 +19,8 @@
                     <p>{{$t("Yes! We offer a free consultation to help you assess your financial needs and to determine how we can best help you achieve your financial goals.")}}</p>
                 </div>
                 <div class="card-container">
-                    <div class="question">{{$t("What sets Finance Vanguard apart from other accounting firms?")}}</div>
-                    <p>{{$t("At Finance Vanguard, we believe in a personalized approach to service. Our accountants are not only experts in finance, but we also strive to understand your unique business and financial needs. We are committed to providing high-quality accounting services to help our clients achieve their financial goals.")}}</p>
+                    <div class="question">{{$t("What sets FV apart from other accounting firms?")}}</div>
+                    <p>{{$t("At FV, we believe in a personalized approach to service. Our accountants are not only experts in finance, but we also strive to understand your unique business and financial needs. We are committed to providing high-quality accounting services to help our clients achieve their financial goals.")}}</p>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
                 <div class="text">
                     <p>{{$t('Your future is our priority.')}}</p>
                     <br>
-                    <p>{{$t('Understanding Your Business, Understanding Your Language: Our accountants at Finance Vanguard are not only experts in finance but also proficient in various languages, including Hokkien, Cantonese, and Teochew dialects. We believe in a personalized approach to service, which begins with clear communication.')}}</p>
+                    <p>{{$t('Understanding Your Business, Understanding Your Language: Our accountants at FV are not only experts in finance but also proficient in various languages, including Hokkien, Cantonese, and Teochew dialects. We believe in a personalized approach to service, which begins with clear communication.')}}</p>
                     <br>
                 </div>
                 <div class="price-button">

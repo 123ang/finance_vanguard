@@ -2,7 +2,6 @@
 <template>
     <HomeHero />
     <AboutUs />
-    <Team />
     <Services />
     <Testimonials />
     <Contact />
